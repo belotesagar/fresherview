@@ -1,1 +1,48 @@
-<p>add-location works!</p>
+<div class="col-md-6">
+  <h1 mat-dialog-title>Add Location</h1>
+  <form #userForm='ngForm' (ngSubmit)='onSubmit(userForm.value)'>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input required #email="ngModel" type="text" ngModel email class="form-control" name="username">
+      <span class="red-error" *ngIf="email.invalid && email.touched">
+        email is not valid</span>
+    </div>
+    <div class="form-group">
+      <label for="name">Address</label>
+      <input required minlength="5" maxlength="8" #password="ngModel" type="text" ngModel class="form-control"
+        name="password">
+      <span class="red-error" *ngIf="password.invalid && password.touched">
+        password is not valid</span>
+    </div>
+    <div class="form-group">
+      <label for="name">City</label>
+      <input required #email="ngModel" type="text" ngModel email class="form-control" name="username">
+      <span class="red-error" *ngIf="email.invalid && email.touched">
+        email is not valid</span>
+    </div>
+    <div class="form-group">
+      <label for="name">country</label>
+      <input required #email="ngModel" type="text" ngModel email class="form-control" name="username">
+      <span class="red-error" *ngIf="email.invalid && email.touched">
+        email is not valid</span>
+    </div>
+    <div class="form-group">
+      <label for="name">Type Of Business</label>
+      <input required #email="ngModel" type="text" ngModel email class="form-control" name="username">
+      <span class="red-error" *ngIf="email.invalid && email.touched">
+        email is not valid</span>
+    </div>
+    <div class="form-group">
+      <label for="inputState" class="form-label">Type of Business</label>
+      <select id="inputState" class="form-select">
+        <option selected>xyz</option>
+        <option>jhk</option>
+      </select>
+    </div>
+  </form>
+  <div mat-dialog-actions>
+    <button type="submit" [disabled]="userForm.invalid" mat-flat-button color="primary" mat-dialog-close
+      mat-dialog-close="true">login</button>
+    <button mat-flat-button color="primary" mat-dialog-close mat-dialog-close="false">Close</button>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+.home {
+  text-align: center;
+  background-color: #0288D1;
+  height: 400px;
+
+}
+
+#companyName {
+  padding-top: 15rem;
+  color: #FF1744;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.newbusiness {
+  text-align: center;
+  background-color: #FF1744;
+  height: 400px;
+}
+
+.newbusinessb {
+  margin-top: 12rem;
+  /* padding-top: 12rem; */
+
+}
