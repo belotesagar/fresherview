@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fresherviewAssessment"
+    }
+  },
+  "defaultProject": "fresherviewAssessment",
+  "cli": {
+    "analytics": "898569ad-12d8-461e-8ec6-192cc166810c"
+  }
 }
