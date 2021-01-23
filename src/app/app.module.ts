@@ -16,6 +16,7 @@ import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
+import { SigninComponent } from './signin/signin.component';
 
 
 
@@ -26,7 +27,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     AddLocationComponent,
     AddReviewSitesComponent,
     TriggerCampaignComponent,
-    ViewStatsComponent
+    ViewStatsComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,

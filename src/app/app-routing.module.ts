@@ -5,6 +5,7 @@ import { AddLocationComponent } from './add-location/add-location.component';
 import { AddReviewSitesComponent } from './add-review-sites/add-review-sites.component';
 import { TriggerCampaignComponent } from './trigger-campaign/trigger-campaign.component';
 import { ViewStatsComponent } from './view-stats/view-stats.component';
+import { SigninComponent } from './signin/signin.component';
 const routes: Routes = [
   { path: '', redirectTo: "default", pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'addReview', component: AddReviewSitesComponent },
   { path: 'triggerCampaign', component: TriggerCampaignComponent },
   { path: 'viewStats', component: ViewStatsComponent },
+  { path: 'signIn', component: SigninComponent }
 
 ];
 
